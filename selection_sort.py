@@ -28,8 +28,7 @@ def swap(list, pos1, pos2):
 
 # 遍历子数组，对子数组中最大值和首值进行交换 
 def selection_sort(list):
-    list1 = list
-    list2 = list
+    list1 = list2 = list
     for i in range(0,len(list)-1):
         list1 = swap(list1, i, find_max_positon(list1[i:])+i)  # 注意+i，取出的是子数组下标，交换时需要再加上i恢复原数组长度
         list2 = swap(list2, i, find_min_positon(list2[i:])+i)
