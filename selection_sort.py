@@ -37,3 +37,6 @@ def selection_sort(list):
 List1 = [9,2,3,8,10,5] 
 List2 = [-9,2,3,8,-10,5,0,-6] 
 print(selection_sort(List2))
+
+
+# 
