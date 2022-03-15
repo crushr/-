@@ -13,7 +13,7 @@ def find_box_1(method):
             if item == key:
                 return key
             elif item == box:
-                back_box_all()
+                back_box_all() # 返回到队尾 最后一个检查 也就是说这是有顺序的 已知总体的
 
 def find_box_2():
     for item in box:
